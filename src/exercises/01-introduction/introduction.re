@@ -1,4 +1,4 @@
-/*
+/** 
   Hello,
 
   Reason is not a new language. It is syntactic sugar for the OCaml language
@@ -34,4 +34,4 @@
 
   Try these out and move on to the next exercise!
  */
-let () = print_endline("Hello, World!);
+let () = print_endline("Hello, World!");

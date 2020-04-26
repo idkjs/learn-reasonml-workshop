@@ -1,0 +1,12 @@
+devDependencies:
+  bs-platform: 7.3.1
+lockfileVersion: 5.1
+packages:
+  /bs-platform/7.3.1:
+    dev: true
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-RlQexm6i2gMKsfuHL8IcOHN0R/SQgxiurP96fo2nj71QgQQRh332ahOwIl0p0yNl9DH2Tg7ZV2pjG6MMMkaU6w==
+specifiers:
+  bs-platform: 7.3.1
