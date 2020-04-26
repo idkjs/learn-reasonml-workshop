@@ -38,7 +38,7 @@ let () = assert (myStrings(myInts) == ["1", "2", "3", "4", "5"]);
 
 /*
   Exercise: implement the value [myNewInts], which is obtained by adding 1 to
-  each element of [myInts]
+  each element of [ints]
  */
 let myNewInts = ints => failwith("For you to implement");
 
@@ -71,9 +71,8 @@ let sumOfMyInts = ints : int =>
 let () = assert (sumOfMyInts(myInts) == 15);
 
 /*
-  Exercise: use [List.fold_left] to compute the number of elements of
-  [myInts] that are even
-
+  Exercise: use [List.fold_left] to count even elements in [ints]
+  
   Hint: Use the infix operator `mod`.
     (4 mod 2 == 0)
  */

@@ -1,16 +1,24 @@
 {
   "name": "learn-reasonml-workshop",
-  "version": "0.1.1",
+  "description": "A set of 24 runnable exercises teaching Reason/OCaml language basics",
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protoship/learn-reasonml-workshop.git"
+  },
+  "keywords": [
+    "ocaml",
+    "bucklescript",
+    "reasonml",
+    "functional programming"
+  ],
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "bs-platform": "7.3.1"
   }
