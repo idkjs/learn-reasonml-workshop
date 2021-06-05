@@ -23,7 +23,7 @@ module Example: {
 let oneLessThanTheMeaningOfLifeEtc =
   Example.subtractOne(Example.theMeaningOfLifeTheUniverseAndEverything);
 
-assert (oneLessThanTheMeaningOfLifeEtc == 41);
+assert(oneLessThanTheMeaningOfLifeEtc == 41);
 
 /*
   Types can be exposed via signatures in Reason as well. Here's an example of declaring
@@ -53,7 +53,7 @@ let two =
 
 let four = AbstractTypeExample.toInt(AbstractTypeExample.add(two, two));
 
-assert (four == 4);
+assert(four == 4);
 
 module Fraction: {
   type t;

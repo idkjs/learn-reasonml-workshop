@@ -104,7 +104,7 @@ let aBooleanFalse: bool = false;
   || for logical or
   !  for logical not
  */
-let () = assert (true || aBooleanFalse);
+let () = assert(true || aBooleanFalse);
 
 /*
   The [unit] type

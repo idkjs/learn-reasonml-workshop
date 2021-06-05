@@ -35,15 +35,15 @@ let mapOption = (f, opt) =>
 
 let double = i => 2 * i;
 
-let () = assert (mapOption(double, None) == None);
+let () = assert(mapOption(double, None) == None);
 
-let () = assert (mapOption(double, Some(2)) == Some(4));
+let () = assert(mapOption(double, Some(2)) == Some(4));
 
 /*
   Instead of defining the function double beforehand, we can use an anonymous
   function.
  */
-let () = assert (mapOption(i => 2 * i, Some(2)) == Some(4));
+let () = assert(mapOption(i => 2 * i, Some(2)) == Some(4));
 
 /*
   Define a function applyIfNonzero which takes a function from (int => int)

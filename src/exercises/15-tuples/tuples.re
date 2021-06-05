@@ -11,9 +11,9 @@ let example: intStringAndChar = (5, "hello", 'A');
 let (i, s, c) = example;
 
 let () = {
-  assert (i == 5);
-  assert (s == "hello");
-  assert (c == 'A');
+  assert(i == 5);
+  assert(s == "hello");
+  assert(c == 'A');
 };
 
 /*

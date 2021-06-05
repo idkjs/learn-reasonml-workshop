@@ -22,9 +22,9 @@ let whatNumberAmIThinking = (myNumber: option(int)) =>
   | Some(number) => "My number is: " ++ string_of_int(number)
   };
 
-assert (whatNumberAmIThinking(None) == "I'm not thinking of any number!");
+assert(whatNumberAmIThinking(None) == "I'm not thinking of any number!");
 
-assert (whatNumberAmIThinking(Some(7)) == "My number is: 7");
+assert(whatNumberAmIThinking(Some(7)) == "My number is: 7");
 
 /*
   Implement the function [safeDivide(~dividend, ~divisor)], which takes two

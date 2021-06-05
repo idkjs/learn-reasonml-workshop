@@ -6,8 +6,8 @@
   This function is the same as the List.append function.
  */
 let () = {
-  assert ([5, 1] @ [8, 4] == [5, 1, 8, 4]);
-  assert (List.append([5, 1], [8, 4]) == [5, 1, 8, 4]);
+  assert([5, 1] @ [8, 4] == [5, 1, 8, 4]);
+  assert(List.append([5, 1], [8, 4]) == [5, 1, 8, 4]);
 };
 
 /*
